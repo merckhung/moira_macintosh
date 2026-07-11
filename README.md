@@ -9,7 +9,7 @@ ROM and a System 6 disk image and runs the classic Mac OS desktop, driven by the
 The screenshot above shows the emulator after booting `testdata/OS_608_boot.dsk`
 (System 6.0.8): the classic Finder desktop with the boot floppy, a hard-disk
 volume, and the Trash. Keyboard and mouse (including clicks) are fully working
-through the emulated Apple Desktop Bus (ADB).
+through the emulated Apple Desktop Bus (ADB). 
 
 ## CPU core: Moira (Motorola 68000)
 
