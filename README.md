@@ -4,12 +4,12 @@ A small **Macintosh SE** emulator for Linux/X11. It boots a real Macintosh SE
 ROM and a System 6 disk image and runs the classic Mac OS desktop, driven by the
 [**Moira**](https://github.com/dirkwhoffmann/Moira) Motorola 68000 CPU core.
 
-![Booted System 6.0.8 to desktop](docs/screenshots/desktop.png)
+![Booted System 6.0.8 desktop](docs/screenshots/desktop.png)
 
 The screenshot above shows the emulator after booting `testdata/OS_608_boot.dsk`
 (System 6.0.8): the classic Finder desktop with the boot floppy, a hard-disk
 volume, and the Trash. Keyboard and mouse (including clicks) are fully working
-through the emulated Apple Desktop Bus (ADB). 
+through the emulated Apple Desktop Bus (ADB).
 
 ## CPU core: Moira (Motorola 68000)
 
