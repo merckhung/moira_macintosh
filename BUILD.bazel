@@ -1,0 +1,17 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
+
+cc_library(
+    name = "moira",
+    srcs = [
+        "moira/Moira.cpp",
+        "moira/MoiraDebugger.cpp",
+    ],
+    hdrs = glob(["moira/*.h"]),
+    includes = ["moira"],
+    copts = [
+        "-std=c++20",
+        "-fno-asynchronous-unwind-tables",
+        "-Wa,--gsframe=no",
+    ],
+    visibility = ["//visibility:public"],
+)

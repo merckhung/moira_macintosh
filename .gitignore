@@ -1,0 +1,10 @@
+# Bazel
+/bazel-*
+MODULE.bazel.lock
+
+# Emulator runtime artifacts
+*.raw
+*_log.txt
+
+# Test data: archives (the ROM and disk images are checked in).
+/testdata/*.zip
